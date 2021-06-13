@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"> -->
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon44.png">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -15,17 +11,54 @@
     <title>SafeCourier</title>
 </head>
 <body>
-    <div id="header" class="wow fadeIn"></div>
-    <div class="banner-bg mb-10 wow fadeIn">
+  
+    <div id="header" class="fadeIn">
+
+      <nav class="navbar navbar-expand-lg navbar-light  bg-light " id="mainNav" role="navigation">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img class="logo" src="images/images.png"></a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0" id="activeClass">
+              <li class="nav-item">
+                <a class="nav-link active" id="home" href="index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="about" href="about-us.html">About </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="tracking" href="tracking.html">Tracking </a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" id="contact" href="contact.html">Contact </a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" id="signUp" href="sign-up.html">Sign Up </a>
+            </li>
+            <div class="nav-item">
+              <div class="nav-link">
+                  <a href="login.html">
+                    <button type="button" class="pd-1-11 btn btn-danger">Login</button>
+                  </a>
+              </div>
+            </div>
+        </ul></div>
+      </div></nav>
+
+
+    </div>
+    <div class="banner-bg mb-10  fadeIn">
       <div class="container">
             <div class="banner-txt">
-            <h1 class="text-center wow fadeInDown wow fadeIn"><span class="color-red">SafeCourier</span>deliver Parcels <br> faster and easier</h1>
+            <h1 class="text-center  fadeInDown  fadeIn"><span class="color-red">SafeCourier</span>deliver Parcels <br> faster and easier</h1>
             </div>
             <div class="card product-track mb-5 mag-64">
               <div class="card-body">
                 <label for="basic-url">Track Your Parcel</label>
                 <form class="input-group ">
-                  <input type="text" class="form-control" placeholder="Enter your product ID" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <input type="text" class="form-control" placeholder="Enter your product ID" >
                   <div class="input-group-append">
                     <button type="submit" class="input-group-text group-text-ch" id="basic-addon2">Track       </button>
                   </div>
@@ -38,7 +71,7 @@
         <div class="about pt-5 mb-5 ">
             <h3>About Us</h3>
             <div class="row">
-              <div class="col-md-6 wow fadeInUp ">
+              <div class="col-md-6  fadeInUp ">
                 <p>Safe Courier is a courier service that helps users deliver parcels to different destinations. Safe Courier provides courier quotes based on weight categories..</p> 
                   <p>Our company is currently located in the heart of Kampala city we are working on setting up branches currently in at least 15 districts in the country.</p>
                   <div class="about-content">
@@ -64,18 +97,18 @@
                           <i class="fas fa-globe-americas"></i>
                       </div>
                       <div>
-                        <h5>NationWide Delivery</h5>
+                        <h5>National Wide Delivery</h5>
                         <p>SafeCourier delivers Parcels to all parts of the country. We have great drivers and hands on deck who know the terrains of this country like their backyard.</p>
                       </div>
                     </div>
                     <a href="about-us.html" class="btn btn-danger">Read More</a>
               </div>
-              <div class="col-md-6 wow slideInRight">
+              <div class="col-md-6  slideInRight">
                   <img src="images/about-img.png">                   
               </div>
             </div>
         </div>
-        <div class="calculate-cost header-cal wow fadeInUp">
+        <div class="calculate-cost header-cal  fadeInUp">
           <div class="row">
             <div class="col-md-6 col-12">
               <img src="./images/Courier-Man.png" class="image-fluid">
@@ -126,7 +159,7 @@
           </div>
         </div>
     </div>
-    <div class="how-it-work wow fadeInUp">
+    <div class="how-it-work  fadeInUp">
       <div class="container">
         <h3>How it work</h3>
         <div class ="row">
@@ -145,12 +178,12 @@
         </div>
       </div>
     </div>
-    <div class="delivery wow fadeInDown">
+    <div class="delivery  fadeInDown">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
             <h3>Get the fastest product delivery</h3>
-            <p>Security and Integrity have been thrown to the dust in our country. SendIt however ensures the we correct all these a delivery at a time. We ensure that goods and products are delivered timely to any part of the country on any day of your choice.</p>
+            <p>Security and Integrity have been thrown to the dust in our country. SafeCourier however ensures the we correct all these a delivery at a time. We ensure that goods and products are delivered timely to any part of the country on any day of your choice.</p>
             <p>We work round the clock. 24 hours, 7 days all year round.</p>
           </div>
           <div class="col-md-6">
@@ -159,18 +192,10 @@
         </div>
       </div>
     </div>
-   <div id="footer" class="wow fadeInDown"></div>
-   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <script src="js/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+   <div id="footer" class=" fadeInDown"></div>
+   
         <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-    <!-- <script src="js/wow.min.js"></script> -->
-    <script>
-    new WOW().init();
-    </script>
+   
   </body>
 </html>
