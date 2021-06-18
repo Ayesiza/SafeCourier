@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
 }
-
+/*
+css for body*/
 body{-webkit-transition: 3s;
   transition: 2s;
 }
