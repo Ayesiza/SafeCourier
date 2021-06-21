@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>SafeCourrier-userDashboard</title>
+ 
+
+</head>
+<body>
+  <div id="userDashboardHeader"></div>
+        <div class="content">
+          <main>
+            <div class="container">
+              <div class="dashboard-content-holder mb-3 wow fadeIn">
+                <h3>USER DASHBOARD</h3>
+                <div class="dash-home"><a href="/index.html">Home </a> / User Dashboard</div>              
+              </div>
+              <div class="mt-5 mb-5">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card-1">
+                        <div class="card-i"><i class="fa fa-cart-arrow-down"></i></div>
+                      <h5>Order Placed</h5>
+                      <p><span>50</span> Delivered</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card-1">
+                      <div class="card-i"><i class="fa fa-truck"></i></div>
+                      <h5>Total Deliveries</h5>
+                      <p><span>105</span> Delivered</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card-1">
+                      <div class="card-i"><i class="fa fa-building"></i></div>
+                      <h5>Pending Deliveries</h5>
+                      <p><span>5</span> Pending</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="deliver-table wow fadeIn">
+                  <p>Delivery Report</p>  
+                  <table id="datatable" class="table table-striped table-bordered hidden-sm" cellspacing="0" width="100%">    
+                      
+                      <thead >
+                            <tr>
+                                <th>Parcel ID</th>
+                                <th> Parcel Name</th>
+                                <th>Order Date</th>
+                                <th>Order Status</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>                            
+                              <th>Parcel ID</th>
+                              <th>Parcel Name</th>
+                              <th>Order Date</th>
+                              <th>Order Status</th>
+                              <th>Total</th>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            <tr>
+                                <td>123983</td>
+                                <td>Hp Laptop</td>
+                                <td>19th Aug, 2021</td>
+                                <td>Process</td>
+                                <td>2,000</td>
+                            </tr>
+                            <tr>
+                                <td>123983</td>
+                                <td>Iphone</td>
+                                <td>20th Aug, 2021</td>
+                                <td>Pending</td>
+                                <td>4,500</td>
+                            </tr>
+                            <tr>
+                              <td>123983</td>
+                              <td>Iphone</td>
+                              <td>20th Aug, 2021</td>
+                              <td>Delivered</td>
+                              <td>4,500</td>
+                          </tr>
+                          <tr>
+                              <td>123983</td>
+                              <td>Iphone</td>
+                              <td>20th Aug, 2021</td>
+                              <td>Cancelled</td>
+                              <td>4,500</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+            
+          </main>       
+        </div>
+        <div id="footer"></div>
+
+
+  </body>
+</html>
